@@ -27,6 +27,7 @@ export function RegisterPage(): JSX.Element {
       <Flex sx={flexContainerStyle} justify="center" align="center" className="register-container">
         <RegisterForm
           type="patient"
+          projectName="Marti Health"
           projectId={import.meta.env.VITE_MEDPLUM_PROJECT_ID}
           googleClientId={import.meta.env.VITE_MEDPLUM_GOOGLE_CLIENT_ID}
           recaptchaSiteKey={import.meta.env.VITE_MEDPLUM_RECAPTCHA_SITE_KEY}

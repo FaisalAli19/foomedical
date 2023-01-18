@@ -27,6 +27,7 @@ export function ResetPassword(): JSX.Element {
       <Flex sx={flexContainerStyle} justify="center" align="center" className="sign-in-container">
         <ForgotPasswordForm
           projectId={import.meta.env.VITE_MEDPLUM_PROJECT_ID}
+          recaptchaSiteKey={import.meta.env.VITE_MEDPLUM_RECAPTCHA_SITE_KEY}
           onSuccess={() => navigate('/')}
           styles={formContainerStyle()}
           formStyles={formStyle(theme)}
