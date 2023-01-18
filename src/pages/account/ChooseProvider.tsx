@@ -1,7 +1,7 @@
 import { XMarkIcon } from '@heroicons/react/24/outline';
 import { formatHumanName, getReferenceString } from '@medplum/core';
 import { Patient, Practitioner } from '@medplum/fhirtypes';
-import { useMedplum } from '@medplum/react';
+import { useMedplum } from 'marti-react-components';
 import React, { useState } from 'react';
 import Button from '../../components/Button';
 import InfoSection from '../../components/InfoSection';

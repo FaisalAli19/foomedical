@@ -1,4 +1,4 @@
-import { Document, Scheduler, useMedplum } from '@medplum/react';
+import { Document, Scheduler, useMedplum } from 'marti-react-components';
 import NoData from '../../components/NoData';
 import './GetCare.css';
 

@@ -1,6 +1,6 @@
 import { formatDate, formatObservationValue, getReferenceString } from '@medplum/core';
 import { Patient } from '@medplum/fhirtypes';
-import { useMedplum } from '@medplum/react';
+import { useMedplum } from 'marti-react-components';
 import GridCell from '../../components/GridCell';
 import GridSection from '../../components/GridSection';
 import NoData from '../../components/NoData';

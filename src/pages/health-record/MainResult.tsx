@@ -1,5 +1,5 @@
 import { DiagnosticReport } from '@medplum/fhirtypes';
-import { DiagnosticReportDisplay, useMedplum } from '@medplum/react';
+import { DiagnosticReportDisplay, useMedplum } from 'marti-react-components';
 import { useParams } from 'react-router-dom';
 import NoData from '../../components/NoData';
 import './MainResult.css';

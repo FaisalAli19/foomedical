@@ -1,7 +1,7 @@
 import { CheckIcon, PencilIcon, PlusIcon } from '@heroicons/react/24/solid';
 import { formatDate, formatFamilyName, formatGivenName, formatHumanName } from '@medplum/core';
 import { Patient, Practitioner } from '@medplum/fhirtypes';
-import { useMedplum, useMedplumProfile } from '@medplum/react';
+import { useMedplum, useMedplumProfile } from 'marti-react-components';
 import React, { useEffect, useRef, useState } from 'react';
 import GeneralInfo from '../../components/GeneralInfo';
 import InfoSection from '../../components/InfoSection';

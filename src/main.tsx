@@ -1,6 +1,6 @@
 import { MantineProvider, MantineThemeOverride } from '@mantine/core';
 import { MedplumClient } from '@medplum/core';
-import { MedplumProvider } from '@medplum/react';
+import { MedplumProvider } from 'marti-react-components';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';

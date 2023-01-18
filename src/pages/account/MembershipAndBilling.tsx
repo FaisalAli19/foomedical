@@ -1,6 +1,6 @@
 import { getReferenceString } from '@medplum/core';
 import { Bundle, Coverage, Patient, PaymentNotice } from '@medplum/fhirtypes';
-import { useMedplum } from '@medplum/react';
+import { useMedplum } from 'marti-react-components';
 import { useEffect, useState } from 'react';
 import InfoSection from '../../components/InfoSection';
 import PageTitle from '../../components/PageTitle';

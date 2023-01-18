@@ -1,5 +1,5 @@
 import { Observation } from '@medplum/fhirtypes';
-import { ResourceTable, useMedplum } from '@medplum/react';
+import { ResourceTable, useMedplum } from 'marti-react-components';
 import { useNavigate, useParams } from 'react-router-dom';
 import InfoSection from '../../components/InfoSection';
 import LinkToPreviousPage from '../../components/LinkToPreviousPage';

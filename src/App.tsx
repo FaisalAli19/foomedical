@@ -1,4 +1,4 @@
-import { useMedplum } from '@medplum/react';
+import { useMedplum } from 'marti-react-components';
 import Router from './Router';
 
 export function App(): JSX.Element | null {

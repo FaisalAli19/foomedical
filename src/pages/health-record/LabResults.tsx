@@ -1,7 +1,7 @@
 import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import { formatDate, getReferenceString } from '@medplum/core';
 import { Patient } from '@medplum/fhirtypes';
-import { useMedplum } from '@medplum/react';
+import { useMedplum } from 'marti-react-components';
 import { Link } from 'react-router-dom';
 import InfoSection from '../../components/InfoSection';
 import NoData from '../../components/NoData';

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Text, Box, Flex, CSSObject, MantineTheme, Image, useMantineTheme } from '@mantine/core';
 // @ts-ignore
-import { RegisterForm } from '@medplum/react';
+import { RegisterForm } from 'marti-react-components';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { OperationOutcomeIssue } from '@medplum/fhirtypes';

@@ -1,6 +1,6 @@
 import { formatHumanName } from '@medplum/core';
 import { Patient, Practitioner } from '@medplum/fhirtypes';
-import { useMedplum } from '@medplum/react';
+import { useMedplum } from 'marti-react-components';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import GeneralInfo from '../../components/GeneralInfo';

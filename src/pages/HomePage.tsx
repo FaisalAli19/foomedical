@@ -1,4 +1,4 @@
-import { useMedplumProfile } from '@medplum/react';
+import { useMedplumProfile } from 'marti-react-components';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { GiftIcon, XMarkIcon } from '@heroicons/react/24/outline';

@@ -1,7 +1,7 @@
 import { Menu, Popover, Transition } from '@headlessui/react';
 import { BellIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { formatHumanName, ProfileResource } from '@medplum/core';
-import { useMedplumProfile } from '@medplum/react';
+import { useMedplumProfile } from 'marti-react-components';
 import React, { Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
 import { ReactComponent as AvatarPlaceholder } from '../img/avatar-placeholder.svg';

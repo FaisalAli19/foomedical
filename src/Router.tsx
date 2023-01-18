@@ -1,4 +1,4 @@
-import { useMedplumProfile } from '@medplum/react';
+import { useMedplumProfile } from 'marti-react-components';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import Account from './pages/account';

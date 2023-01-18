@@ -1,4 +1,4 @@
-import { useMedplum } from '@medplum/react';
+import { useMedplum } from 'marti-react-components';
 import { useEffect } from 'react';
 
 export function SignOutPage(): null {

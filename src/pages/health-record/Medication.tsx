@@ -1,6 +1,6 @@
 import { formatDate, formatTiming } from '@medplum/core';
 import { MedicationRequest } from '@medplum/fhirtypes';
-import { useMedplum } from '@medplum/react';
+import { useMedplum } from 'marti-react-components';
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import InfoSection from '../../components/InfoSection';

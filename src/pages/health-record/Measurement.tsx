@@ -1,7 +1,7 @@
 import { InformationCircleIcon } from '@heroicons/react/24/outline';
 import { createReference, formatDate, formatDateTime, formatObservationValue, getReferenceString } from '@medplum/core';
 import { BundleEntry, Observation, Patient } from '@medplum/fhirtypes';
-import { useMedplum } from '@medplum/react';
+import { useMedplum } from 'marti-react-components';
 import React, { Suspense, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Button from '../../components/Button';
