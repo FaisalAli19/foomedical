@@ -2,6 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Pangram';
+  src: url('/fonts/Pangram-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pangram';
+  src: url('/fonts/Pangram-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pangram';
+  src: url('/fonts/Pangram-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pangram';
+  src: url('/fonts/Pangram-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pangram';
+  src: url('/fonts/Pangram-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pangram';
+  src: url('/fonts/Pangram-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pangram';
+  src: url('/fonts/Pangram-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer components {
   #signin h2 {
     @apply mt-6 mb-8 text-center text-3xl font-extrabold text-gray-900;
@@ -237,4 +293,47 @@ pre {
 .medplum-signin-separator::after {
   left: 0.5em;
   margin-right: -50%;
+}
+
+.sign-in-container .mantine-TextInput-label,
+.sign-in-container .mantine-PasswordInput-label {
+  color: #223e9a;
+  margin-bottom: 7px;
+}
+
+.sign-in-container .mantine-PasswordInput-visibilityToggle {
+  background: transparent;
+}
+
+.sign-in-container .mantine-TextInput-input,
+.sign-in-container .mantine-PasswordInput-input {
+  background: #ebfffc;
+  border-color: #798bc9;
+  border-radius: 9px;
+}
+
+.sign-in-container .mantine-PasswordInput-innerInput {
+  background: #ebfffc;
+  border: none;
+}
+
+.sign-in-container .mantine-TextInput-input:focus,
+.sign-in-container .mantine-PasswordInput-input:focus,
+.sign-in-container .mantine-PasswordInput-innerInput:focus {
+  background: #90e2d4;
+}
+
+.sign-in-container .mantine-TextInput-input:focus,
+.sign-in-container .mantine-PasswordInput-input:focus {
+  border-color: #798bc9;
+}
+
+.sign-in-container .login-btn {
+  height: 79.2px;
+  background: #223e9a;
+  border-radius: 14px;
+  font-family: 'Pangram, sans-serif' !important;
+  font-weight: 500;
+  font-size: 31.68px;
+  line-height: 38px;
 }
