@@ -296,39 +296,60 @@ pre {
 }
 
 .sign-in-container .mantine-TextInput-label,
-.sign-in-container .mantine-PasswordInput-label {
+.sign-in-container .mantine-PasswordInput-label,
+.register-container .mantine-TextInput-label,
+.register-container .mantine-PasswordInput-label {
   color: #223e9a;
   margin-bottom: 7px;
 }
 
-.sign-in-container .mantine-PasswordInput-visibilityToggle {
+.sign-in-container .mantine-PasswordInput-visibilityToggle,
+.register-container .mantine-PasswordInput-visibilityToggle {
   background: transparent;
 }
 
 .sign-in-container .mantine-TextInput-input,
-.sign-in-container .mantine-PasswordInput-input {
+.sign-in-container .mantine-PasswordInput-input,
+.register-container .mantine-TextInput-input,
+.register-container .mantine-PasswordInput-input {
   background: #ebfffc;
   border-color: #798bc9;
   border-radius: 9px;
 }
 
-.sign-in-container .mantine-PasswordInput-innerInput {
+.sign-in-container .mantine-PasswordInput-innerInput,
+.register-container .mantine-PasswordInput-innerInput {
   background: #ebfffc;
   border: none;
 }
 
 .sign-in-container .mantine-TextInput-input:focus,
 .sign-in-container .mantine-PasswordInput-input:focus,
-.sign-in-container .mantine-PasswordInput-innerInput:focus {
+.sign-in-container .mantine-PasswordInput-innerInput:focus,
+.register-container .mantine-TextInput-input:focus,
+.register-container .mantine-PasswordInput-input:focus,
+.register-container .mantine-PasswordInput-innerInput:focus {
   background: #90e2d4;
 }
 
 .sign-in-container .mantine-TextInput-input:focus,
-.sign-in-container .mantine-PasswordInput-input:focus {
+.sign-in-container .mantine-PasswordInput-input:focus,
+.register-container .mantine-TextInput-input:focus,
+.register-container .mantine-PasswordInput-input:focus {
   border-color: #798bc9;
 }
 
 .sign-in-container .login-btn {
+  height: 79.2px;
+  background: #223e9a;
+  border-radius: 14px;
+  font-family: 'Pangram, sans-serif' !important;
+  font-weight: 500;
+  font-size: 31.68px;
+  line-height: 38px;
+}
+
+.register-container .register-btn {
   height: 79.2px;
   background: #223e9a;
   border-radius: 14px;
